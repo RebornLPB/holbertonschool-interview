@@ -3,6 +3,7 @@
 Module 0-lockboxes
 """
 
+
 def canUnlockAll(boxes):
     """
     Determines if all the boxes in a given list can be opened.
