@@ -2,6 +2,7 @@
 """Log parsing module"""
 import sys
 
+
 def print_stat(total_size, status_counts):
     """Print the stats"""
     print(f"File size: {total_size}")
@@ -9,6 +10,7 @@ def print_stat(total_size, status_counts):
     for code in sorted(status_counts.keys()):
         if status_counts[code] > 0:
             print(f"{code}: {status_counts[code]}")
+
 
 def main():
     total_size = 0
@@ -39,6 +41,7 @@ def main():
         sys.exit(0)
 
     print_stat(total_size, status_counts)
+
 
 if __name__ == "__main__":
     main()
