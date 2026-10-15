@@ -2,6 +2,7 @@
 
 import sys
 
+
 def n_not_valid():
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
@@ -18,6 +19,7 @@ def n_not_valid():
         sys.exit(1)
 
     nqueens(0, [], n)
+
 
 def nqueens(row, queens, n):
     if row == n:
@@ -43,6 +45,7 @@ def nqueens(row, queens, n):
             queens.append(col)
             nqueens(row + 1, queens, n)
             queens.pop()
+
 
 if __name__ == "__main__":
     n_not_valid()
