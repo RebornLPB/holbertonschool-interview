@@ -1,14 +1,14 @@
 # Holberton School - Technical Interview Prep
 
 ## 📖 About
-This repository gathers coding-interview style algorithmic exercises solved during the **Holberton School** curriculum: classic problems around graph traversal, combinatorics, and greedy/number-theory algorithms.
+This repository gathers coding-interview style algorithmic exercises solved during the **Holberton School** curriculum: classic problems around graph traversal, combinatorics, number theory, bit manipulation, matrices, backtracking and log processing.
 
 ---
 
 ## 🛠️ General Requirements & Environment
 * **OS:** Ubuntu 20.04 LTS
 * **Interpreter:** `python3` (version 3.8.5+)
-* **Style Guide:** All Python source files strictly comply with **PEP 8** (verified via `pycodestyle`).
+* **Style Guide:** All Python source files are meant to follow **PEP 8** (check with `pycodestyle`).
 
 ---
 
@@ -19,6 +19,10 @@ This repository gathers coding-interview style algorithmic exercises solved duri
 | [`lockboxes`](lockboxes/) | Can you open every box? | Graph/BFS-style traversal, sets |
 | [`pascal_triangle`](pascal_triangle/) | Build Pascal's Triangle | Dynamic construction of nested lists |
 | [`minimum_operations`](minimum_operations/) | Minimum operations to reach `n` `H` | Prime factorization, greedy accumulation |
+| [`log_parsing`](log_parsing/) | Compute metrics from a log read on `stdin` | Stream processing, dictionaries, `KeyboardInterrupt` |
+| [`utf8_validation`](utf8_validation/) | Is a list of integers valid UTF-8? | Bitwise operators, state tracking |
+| [`rotate_2d_matrix`](rotate_2d_matrix/) | Rotate a square matrix 90° clockwise in place | 2D lists, transpose + reverse |
+| [`nqueens`](nqueens/) | Print every solution of the N queens puzzle | Recursion, backtracking |
 
 ---
 
