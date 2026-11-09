@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+"""
+Module identifying the perimeter of an island in a grid.
+"""
 
 
 def island_perimeter(grid):
+    """
+    Calculates the total perimeter of the island described in grid.
+
+    """
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0]) if rows > 0 else 0
