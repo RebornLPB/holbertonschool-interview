@@ -11,10 +11,10 @@ request(url, (error, response, body) => {
   }
 
   const characters = JSON.parse(body).characters;
-  print_characters(characters, 0);
+  printCharacters(characters, 0);
 });
 
-function print_characters(characters, index) {
+function printCharacters (characters, index) {
   if (index === characters.length) {
     return;
   }
@@ -25,6 +25,6 @@ function print_characters(characters, index) {
       return;
     }
     console.log(JSON.parse(body).name);
-    print_characters(characters, index + 1);
+    printCharacters(characters, index + 1);
   });
 }
