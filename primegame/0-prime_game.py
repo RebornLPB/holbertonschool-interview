@@ -16,7 +16,7 @@ def isWinner(x, nums):
 
     for i in range(2, int(max_n ** 0.5) + 1):
         if crible[i]:
-            for j in range(i * i, max_n +1, i):
+            for j in range(i * i, max_n + 1, i):
                 crible[j] = False
 
     prime_count = [0] * (max_n + 1)
