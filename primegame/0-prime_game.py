@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""Determine the winner of each prime-number removal game."""
+
 
 def isWinner(x, nums):
+    """Count game wins based on the number of primes up to each limit.
+    """
     if not nums or x < 1:
         return None
     max_n = max(nums)
